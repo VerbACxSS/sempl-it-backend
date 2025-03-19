@@ -1,0 +1,3 @@
+La documentazione esistente o le interviste al personale o ai pazienti e ai loro familiari assicurano la verifica delle evidenze. La valutazione mediante l'esame delle procedure e dei documenti è circoscritta. Inoltre, costituisce, quando previsto, solo il punto di partenza dell'osservazione pratica della loro diffusione e applicazione.
+
+Per utilzzare pienamente gli standard di accreditamento come strumenti per migliorare la qualità, è prevista una flessibilità nell'applicare i singoli requisiti e le relative evidenze. Questa flessibilità considera le caratteristiche relative alle dimensioni e della complessità delle diverse organizzazioni.

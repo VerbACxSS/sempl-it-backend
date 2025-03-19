@@ -1,0 +1,7 @@
+Tutti gli automezzi utilizzano gasolio ecologico a basso tenore di zolfo, secondo le norme UNI-CUNA EN 590/93, e le operazioni di manutenzione periodica garantiscono che i dispositivi di scarico siano sempre perfettamente efficienti e in grado di garantire un'adeguata limitazione delle emissioni in atmosfera. L'azienda è inoltre impegnata in un rinnovamento continuo del proprio parco autobus, per migliorare costantemente i propri standard di qualità, di sicurezza e di rispetto dell'ambiente.
+
+All'interno della sede dell'Azienda vengono inoltre attivate adeguate procedure di controllo operativo degli aspetti ambientali significativi per ridurre al minimo i potenziali impatti ambientali da essi derivanti. L'Azienda è impegnata:
+- nella prevenzione dell'inquinamento della rete fognaria generato dagli scarichi idrici provenienti dalle operazioni di lavaggio degli autobus, dagli interventi in officina e dall'autorimessa dei mezzi;
+- in una corretta gestione e un idoneo deposito temporaneo e smaltimento dei rifiuti pericolosi, per i quali la società si avvale di fornitori pienamente qualificati;
+- in una continua campagna di informazione e sensibilizzazione di tutto il personale dell'azienda verso gli aspetti ambientali riguardanti il proprio servizio;
+- nel risparmio energetico e nella razionalizzazione dell'utilizzo delle risorse naturali (acqua, metano, ecc.).

@@ -1,0 +1,42 @@
+{
+    "proofreading": {
+        "step": "1_proofreading",
+        "prev_step": "original",
+        "shots": ["12", "8", "10", "1", "3"]
+    },
+    "lex": {
+        "step": "2_lex",
+        "prev_step": "1_proofreading",
+        "shots": ["9", "2", "7", "3", "8"]
+    },
+    "connectives": {
+        "step": "3_connectives",
+        "prev_step": "2_lex",
+        "shots": ["10", "13", "5", "12", "1"]
+    },
+    "expressions": {
+        "step": "4_expressions",
+        "prev_step": "3_connectives",
+        "shots": ["1", "11", "5", "10", "4"]
+    },
+    "sentence_splitter": {
+        "step": "5_sentence_splitter",
+        "prev_step": "4_expressions",
+        "shots": ["4", "1", "2", "5", "6"]
+    },
+    "nominalizations": {
+        "step": "6_nominalizations",
+        "prev_step": "5_sentence_splitter",
+        "shots": ["8", "4", "2"]
+    },
+    "verbs": {
+        "step": "7_verbs",
+        "prev_step": "6_nominalizations",
+        "shots": ["11", "4", "10"]
+    },
+    "sentence_reorganizer": {
+        "step": "8_sentence_reorganizer",
+        "prev_step": "7_verbs",
+        "shots": ["7", "11", "8"]
+    }
+}
