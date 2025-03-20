@@ -6,7 +6,6 @@ from fastapi import APIRouter, Depends, HTTPException
 from app.models.AnalysisRequest import TextAnalysisRequest, ComparisonAnalysisRequest
 from app.models.AnalysisResponse import TextAnalysisResponse, ComparisonAnalysisResponse
 from app.services.analysis_service import AnalysisService
-from app.services.cleaner_service import CleanerService
 
 # Initialize logging
 LOGGER = logging.getLogger()
@@ -17,7 +16,6 @@ router = APIRouter()
 
 @router.post("/text", response_model=TextAnalysisResponse)
 async def analyze(request: TextAnalysisRequest,
-                  cleaner_service: Annotated[CleanerService, Depends(CleanerService)],
                   analysis_service: Annotated[AnalysisService, Depends(AnalysisService)]):
     try:
         LOGGER.info(request)
@@ -37,7 +35,6 @@ async def analyze(request: TextAnalysisRequest,
 
 @router.post("/comparison", response_model=ComparisonAnalysisResponse)
 async def analyze(request: ComparisonAnalysisRequest,
-                  cleaner_service: Annotated[CleanerService, Depends(CleanerService)],
                   analysis_service: Annotated[AnalysisService, Depends(AnalysisService)]):
     try:
         LOGGER.info(request)

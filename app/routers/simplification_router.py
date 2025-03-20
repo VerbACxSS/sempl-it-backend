@@ -5,7 +5,6 @@ from fastapi import APIRouter, HTTPException, Depends
 
 from ..models.SimplificationRequest import SimplificationRequest
 from ..models.SimplificationResponse import SimplificationResponse
-from ..services.cleaner_service import CleanerService
 from ..services.simplification_service import SimplificationService
 from ..services.analysis_service import AnalysisService
 
@@ -17,7 +16,6 @@ router = APIRouter()
 
 @router.post("/", response_model=SimplificationResponse)
 async def simplify(request: SimplificationRequest,
-                   cleaner_service: Annotated[CleanerService, Depends(CleanerService)],
                    analysis_service: Annotated[AnalysisService, Depends(AnalysisService)],
                    simplification_service: Annotated[SimplificationService, Depends(SimplificationService)]):
     try:
