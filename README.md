@@ -45,12 +45,33 @@ docker compose up --build -d
 ```
 
 ## Usage
-The web application will be running at `http://localhost:30010` by default. Make a POST request to the following endpoint:
+The web application will be running at `http://localhost:30010` by default. 
+
+Make a POST request to the following endpoint to simplify an administrative text:
 ```sh
 curl -X POST "http://localhost:30010/api/v1/simplify/" \
 -H "Content-Type: application/json" \
 -d '{
     "text": "Nella fattispecie, il presente documento ha lo scopo di fornire indicazioni operative per la gestione del personale."
+}'
+```
+
+Make a POST request to the following endpoint to analyze an administrative text:
+```sh
+curl -X POST "http://localhost:30010/api/v1/analyze/text" \
+-H "Content-Type: application/json" \
+-d '{
+    "text": "Nella fattispecie, il presente documento ha lo scopo di fornire indicazioni operative per la gestione del personale."
+}'
+```
+
+Make a POST request to the following endpoint to compare two administrative text:
+```sh
+curl -X POST "http://localhost:30010/api/v1/analyze/comparison" \
+-H "Content-Type: application/json" \
+-d '{
+    "text1": "Nella fattispecie, il presente documento ha lo scopo di fornire indicazioni operative per la gestione del personale.",
+    "text2": "Nello specifico, questo documento descrive indicazioni operative per la gestione del personale."
 }'
 ```
 
