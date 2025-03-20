@@ -1,18 +1,10 @@
-from typing import List, Tuple, Dict
+from typing import List
 
 from . import fs_utils
 
 
-def load_prompt(step_name: str) -> Tuple[str, List[Tuple[str, str]]]:
-    FEW_SHOT_INFO = fs_utils.read_json('./assets/dev_corpus/few_shot_info.json')
-
-    few_shots = []
-    system_prompt = fs_utils.read_file(f'./assets/prompts/{FEW_SHOT_INFO[step_name]["step"]}.md')
-    for folder in FEW_SHOT_INFO[step_name]['shots']:
-        _input = fs_utils.read_file(f'./assets/dev_corpus/{folder}/{FEW_SHOT_INFO[step_name]["prev_step"]}.md')
-        _output = fs_utils.read_file(f'./assets/dev_corpus/{folder}/{FEW_SHOT_INFO[step_name]["step"]}.md')
-        few_shots.append((_input, _output))
-    return system_prompt, few_shots
+def load_prompt(prompt_name: str) -> str:
+    return fs_utils.read_file(f'./assets/prompts/{prompt_name}.md')
 
 
 def load_connectives() -> List[str]:

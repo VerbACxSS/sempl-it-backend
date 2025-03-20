@@ -15,8 +15,8 @@ Alternatively, you can use a containerized version by installing:
 ### Configuration
 The application can be configured using the following environment variable:
 ```
-OPENAI_API_KEY=...
 SEMPL_IT_ENDPOINT=...
+SEMPL_IT_API_KEY=...
 ```
 
 ### Using `python` and `pip`
