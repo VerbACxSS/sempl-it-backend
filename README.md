@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 Start the server
 ```shell
-python -m uvicorn app.app:app 
+python -m uvicorn app.app:app --host=0.0.0.0 --port=30010 --log-level=info --workers=2 --timeout_keep_alive=120
 ```
 
 ### Using `docker`
