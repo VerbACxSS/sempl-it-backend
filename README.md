@@ -6,6 +6,7 @@ The SEMPL-IT web app consists of the following repositories:
 - Frontend: [GitHub Repository](https://github.com/VerbACxSS/semp-it-frontend)
 - Backend: [GitHub Repository](https://github.com/VerbACxSS/semp-it-backend)
 - Inference Module: [GitHub Repository](https://github.com/VerbACxSS/semp-it-intefence)
+- LLMs Collection: [HuggingFace Collection](https://huggingface.co/collections/VerbACxSS/sempl-it-v2-awq-67d362ffc5d1d83603d05b3f)
 
 ## Getting started
 ### Pre-requisites
